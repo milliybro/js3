@@ -8,33 +8,69 @@ let c = abc % 10;
 
 let res;
 
-switch (b) {
+switch (a) {
   case 1:
-    res = "O'n";
+    res = `1 yuz`;
     break;
   case 2:
-    res = "Yigirma";
+    res = `2 yuz`;
     break;
   case 3:
-    res = "O'ttiz";
+    res = `3 yuz`;
     break;
   case 4:
-    res = "Qirq";
+    res = `4 yuz`;
     break;
   case 5:
-    res = "Ellik";
+    res = `5 yuz`;
     break;
   case 6:
-    res = "Olmish";
+    res = `6 yuz`;
+    break;
+  case 7:
+    res = `7 yuz`;
+    break;
+  case 8:
+    res = `8 yuz`;
+    break;
+  case 9:
+    res = `9 yuz`;
+    break;
+
+  default:
+   console.log('...');
+    break;
+}
+
+res += " ";
+
+switch (b) {
+  case 1:
+    res += "O'n";
+    break;
+  case 2:
+    res += "Yigirma";
+    break;
+  case 3:
+    res += "O'ttiz";
     break;
   case 4:
-    res = "Qirq";
+    res += "Qirq";
+    break;
+  case 5:
+    res += "Ellik";
+    break;
+  case 6:
+    res += "Oltmish";
     break;
   case 4:
-    res = "Qirq";
+    res += "Yetmish";
     break;
   case 4:
-    res = "Qirq";
+    res += "Sakson";
+    break;
+  case 4:
+    res += "To'qson";
     break;
   default:
     res = "xato";
@@ -42,7 +78,7 @@ switch (b) {
 
 res += " ";
 
-switch (b) {
+switch (c) {
   case 1:
     res += "bir";
     break;
@@ -72,6 +108,6 @@ switch (b) {
     break;
 }
 
-res += `ta masala`;
+
 
 console.log(res);
